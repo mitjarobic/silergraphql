@@ -1,0 +1,9 @@
+{
+    "name": "root/silergraphql",
+    "require": {
+        "webonyx/graphql-php": "^0.11.5",
+        "leocavalcante/siler": "dev-master",
+        "cboden/ratchet": "^0.4.1",
+        "ratchet/pawl": "^0.3.1"
+    }
+}

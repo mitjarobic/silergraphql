@@ -55,6 +55,7 @@ $mutationType = [
 
         R::store($message);
 
+        $message['roomName'] = $roomName; // For the inbox filter
         // Then we can publish new messages that arrives from the chat mutation
         Graphql\publish('inbox', $message); // <- Exactly what "inbox" will receive
 
